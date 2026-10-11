@@ -108,4 +108,52 @@ npm run build
 
 🔐 Authentication and Profile Management
 
-Better Auth is used for user authentication and account management. Signed-in users can access protected product details and update supported profile in
+Better Auth is used for user authentication and account management. Signed-in users can access protected product details and update supported profile information.
+
+Google and GitHub login require their respective providers and credentials to be configured.
+
+📱 Responsive Design
+
+The interface is designed for mobile, tablet, and desktop screens. Responsive layouts help keep the navigation, ticker, hero section, product grid, forms, and footer usable across screen sizes.
+
+🚀 Deployment
+
+The application can be deployed to Vercel or another compatible hosting platform.
+
+Before submission, verify that:
+
+- The production build succeeds.
+- Product and category data load correctly.
+- Dynamic routes work after refreshing the browser.
+- Authentication and protected routes work correctly.
+- Price sorting handles Bengali numerals correctly.
+- Profile updates and toast notifications work.
+- The deployed application has no blocking errors.
+
+✅ Assignment Checklist
+
+- [ ] Responsive mobile, tablet, and desktop layouts.
+- [ ] Navbar, category navigation, and price ticker.
+- [ ] Hero section with a working product-section CTA.
+- [ ] Rising-price and falling-price product sections.
+- [ ] Product catalog and protected details.
+- [ ] Category loading states and price sorting.
+- [ ] Sign up, sign in, sign out, and configured social login.
+- [ ] Success and error toast notifications.
+- [ ] Profile update information feature.
+- [ ] Friendly invalid-route handling.
+- [ ] At least 8 meaningful Git commits.
+- [ ] README documentation completed.
+- [ ] Production build and deployment tested.
+
+🔗 Submission Links
+
+- Live Link: YOUR_DEPLOYED_WEBSITE_URL
+- GitHub Repository: YOUR_GITHUB_REPOSITORY_URL
+
+👨‍💻 Project Information
+
+- Project Name: বাজার দর | BazarDor
+- Assignment: B14-A7
+- Project Type: Web Development
+- Purpose: Explore essential product prices in Bangladesh.
