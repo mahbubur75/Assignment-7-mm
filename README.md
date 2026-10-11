@@ -4,6 +4,4 @@ BazarDor is a responsive web application that helps users explore the daily pric
 
 📖 Project Overview
 
-BazarDor makes everyday market prices easier to explore through a clean, responsive, and user-friendly interface. The application displays essential products such as rice, lentils, oil, vegetables, fish, meat, eggs, milk, and spices.
-
-This project is develop
+BazarDor makes everyday market prices easier to explore through a clean, responsive, and user-friendly interface. The application displays essential products such as rice, lentils, o
