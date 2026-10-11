@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
@@ -242,8 +241,8 @@ export default function ProfilePage() {
                   type="password"
                   value={currentPassword}
                   onChange={(e) =>
-                    setCurrentPassword(e.currentTarget.value)
-                  }
+  setCurrentPassword(e.currentTarget.value)
+}
                   placeholder="বর্তমান পাসওয়ার্ড"
                   autoComplete="current-password"
                   className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-green-600 focus:ring-2 focus:ring-green-100"

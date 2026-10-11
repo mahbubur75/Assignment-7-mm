@@ -1,14 +1,14 @@
 "use client";
 
 import { useState, type ChangeEvent, type FormEvent } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import toast from "react-hot-toast";
 import { signIn } from "@/lib/auth-client";
 
 export default function SigninPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
+
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -45,7 +45,9 @@ export default function SigninPage() {
 
       toast.success("সাইন ইন সফল হয়েছে!");
 
-      const requestedPath = searchParams.get("callbackURL");
+const requestedPath = new URLSearchParams(
+  window.location.search
+).get("callbackURL");
 
       const destination =
         requestedPath &&
